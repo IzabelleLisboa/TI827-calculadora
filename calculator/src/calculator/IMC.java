@@ -6,7 +6,7 @@ class IMC {
 
     static void calculaIMC() {
         LeDados r = new LeDados();
-        r.lerValores();
+        r.lerValores("Insira o peos em kg","Insira a altura em metros");
         r.IMC = r.valor1 / (r.valor2 * r.valor2);
         System.out.println ("IMC:"+ r.IMC );
         
